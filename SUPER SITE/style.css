@@ -1,0 +1,48 @@
+    body {
+        background-image: url(BG.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: fill;
+        height: 984px;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .header {
+        padding-top: 25px;
+        padding-left: 45px;
+        padding-right: 45px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .logo {
+        font-size: 80px;
+    }
+    
+    .menu {
+        display: flex;
+        font-size: 35px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .menu_item+.menu_item {
+        margin-left: 150px;
+    }
+    
+    .menu_item {
+        padding-top: 25px;
+        transition: all 0.7s;
+    }
+    
+    .menu_item:hover {
+        cursor: pointer;
+        color: black;
+    }
+    
+    .sing {
+        cursor: pointer;
+    }
